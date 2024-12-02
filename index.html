@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canier Custom Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 10px auto;
+            background: #fff;
+            border-radius: 5px;
+            max-width: 800px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+        }
+        #gallery img {
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Canier Custom Games</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Canier Custom Games, we specialize in creating unique, custom video games tailored to your vision. Whether you're an individual or a business, we provide the tools and expertise to bring your ideas to life.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Custom Game Development</li>
+            <li>Game Design Consultation</li>
+            <li>Game Testing and Quality Assurance</li>
+            <li>Post-Launch Support</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="game1.jpg" alt="Game 1">
+        <img src="game2.jpg" alt="Game 2">
+        <img src="game3.jpg" alt="Game 3">
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+            <p>"Canier Custom Games transformed my concept into a fantastic game! Highly recommend!" - Happy Customer</p>
+        </blockquote>
+        <blockquote>
+            <p>"Professional, creative, and attentive to detail. A pleasure to work with!" - Satisfied Client</p>
+        </blockquote>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Canier Custom Games. All rights reserved.</p>
+        <p>Follow us on 
+            <a href="#" style="color: #fff;">Facebook</a> | 
+            <a href="#" style="color: #fff;">Twitter</a> | 
+            <a href="#" style="color: #fff;">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
